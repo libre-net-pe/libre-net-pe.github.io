@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Domain Pages -->
+  <sitemap>
+    <loc>https://libre.net.pe/sitemap-pages.xml</loc>
+    <lastmod>2024-10-28</lastmod>
+  </sitemap>
+
+  <!-- Subdomain: Schedule Management System -->
+  <sitemap>
+    <loc>https://horarios.libre.net.pe/sitemap.xml</loc>
+    <lastmod>2024-10-28</lastmod>
+  </sitemap>
+
+  <!-- Subdomain: Lead Management System -->
+  <sitemap>
+    <loc>https://leads.libre.net.pe/sitemap.xml</loc>
+    <lastmod>2024-10-28</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -13,9 +13,8 @@ export default function Footer(props: FooterProps) {
         href="/"
       >
         <Image
-          aria-hidden
           src="/file.svg"
-          alt="File icon"
+          alt="Icono de libre.net.pe"
           width={16}
           height={16}
         />
@@ -23,12 +22,41 @@ export default function Footer(props: FooterProps) {
       </Link>
       <a
         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-        href="https://agendamascota.org.pe"
+        href="https://horarios.libre.net.pe"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <Image
-          aria-hidden
           src="/window.svg"
-          alt="Window icon"
+          alt="Icono de Horarios"
+          width={16}
+          height={16}
+        />
+        Horarios
+      </a>
+      <a
+        className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+        href="https://leads.libre.net.pe"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/window.svg"
+          alt="Icono de Leads"
+          width={16}
+          height={16}
+        />
+        Leads
+      </a>
+      <a
+        className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+        href="https://agendamascota.org.pe"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/window.svg"
+          alt="Icono de Agenda Mascota"
           width={16}
           height={16}
         />
@@ -36,9 +64,8 @@ export default function Footer(props: FooterProps) {
       </a>
       <Link className="flex items-center gap-2 hover:underline hover:underline-offset-4" href={`/privacy`}>
         <Image
-          aria-hidden
           src="/globe.svg"
-          alt="Globe icon"
+          alt="Icono de privacidad"
           width={16}
           height={16}
         />

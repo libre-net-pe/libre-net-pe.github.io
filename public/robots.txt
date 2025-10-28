@@ -1,3 +1,6 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
+
+# Sitemap Index - References all domain and subdomain sitemaps
+Sitemap: https://libre.net.pe/sitemap.xml
